@@ -1,0 +1,276 @@
+@import url('reset.css');
+
+*{
+    font-family: Roboto;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0px 24px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+}
+
+#item-menu{
+    align-items: flex-start;
+}
+
+#search-bar{
+    width: 348px;
+    height: 38px;
+    flex-shrink: 0;
+    border: 1px solid #CCC;
+    background: #FFF;
+}
+
+#search-container{
+    width: 57px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #CCC;
+    background: #F8F8F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-logo{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+
+main{
+    margin-left: 75px;
+    height: 3000px;
+}
+
+.info{
+    width: 196px;
+}
+
+.column{
+    display: flex;
+    margin-top: 28px;
+}
+
+.container-lista-videos{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.recomended{
+    width: 196px;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.watching-video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    width: 1200px;
+    height: 900px;
+}
+
+#watching-now{
+    width: 1180px;
+}
+
+#title{
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.video-actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 42px;
+}
+
+#channel-info{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#text-info{
+    width: 106px;
+    height: 32px;
+    color: #515151;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#dio{
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#button{
+    width: 159px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background-color: #C00;
+    text-align: center;
+    border: none;
+}
+
+#inscreva-se{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.like{
+    width: 71px;
+    height: 24px;
+}
+
+#like-text{
+    display: inline-flex;
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 5px;
+}
+
+.dislike{
+    width: 108px;
+    height: 24px;
+}
+
+#dislike-text{
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 5px;
+}
+
+.share{
+    width: 125px;
+    height: 24px;
+}
+
+#share{
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 5px;
+}
+
+.download{
+    width: 95px;
+    height: 24px;
+}
+
+#download{
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#visualizations{
+    flex-direction: column;
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 16px 0;
+}
+
+#description{
+    width: 510px;
+    color: #515151;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 16px 0;
+}
+
+#recomended-text{
+    height: 89px;
+}
+
+#title-video{
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+
+#channel-video{
+    color: #515151;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 8px 0 5px;
+}
+
+#visualization-video{
+    color: #515151;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 8px 0 0;
+}
